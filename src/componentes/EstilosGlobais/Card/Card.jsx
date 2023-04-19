@@ -8,7 +8,7 @@ const DivEstilizada = styled.div`
         border-radius: ${props => props.theme.espacamentos.s};
 `
 
-export const Card = ({ children}) => {
+export const Card = ({ children }) => {
     return (<DivEstilizada>
         {children}
         </DivEstilizada>)
